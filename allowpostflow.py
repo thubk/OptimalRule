@@ -36,7 +36,7 @@ class StaticEntryPusher(object):
 pusher = StaticEntryPusher('127.0.0.1',"/wm/staticentrypusher/json")
 flow1 = {
     'switch':"00:00:00:00:00:00:00:01",
-    "name":"flow1",
+    "name":"a",
     "cookie":"0",
     "priority":"1001",
     "ipv4_src":"192.168.1.105",
@@ -48,7 +48,7 @@ flow1 = {
     }
 flow2 = {
     'switch':"00:00:00:00:00:00:00:01",
-    "name":"flow2",
+    "name":"b",
     "cookie":"0",
     "priority":"1001",
     "ipv4_src":"192.168.1.102",
@@ -60,7 +60,7 @@ flow2 = {
     }
 flow3 = {
     'switch':"00:00:00:00:00:00:00:01",
-    "name":"thu",
+    "name":"c",
     "cookie":"0",
     "priority":"1001",
     "ipv4_src":"192.168.1.100",
@@ -73,7 +73,7 @@ flow3 = {
  
 flow4 = {
     'switch':"00:00:00:00:00:00:00:01",
-    "name":"nhat",
+    "name":"d",
     "cookie":"0",
     "priority":"1001",
     "in_port":"1",
