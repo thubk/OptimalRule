@@ -14,6 +14,7 @@ allow_flow["priority"] = "2000"
 allow_flow["in_port"] = "1"
 allow_flow["ipv4_src"] = ""
 allow_flow["eth_type"] = "0x0800"
+allow_flow["ip_proto"] = "0x06",
 allow_flow["active"] = "true"
 allow_flow["actions"] = "output=3"
 
@@ -24,6 +25,7 @@ prevent_flow["priority"] = "1500"
 prevent_flow["in_port"] = "1"
 prevent_flow["ipv4_src"] = ""
 prevent_flow["eth_type"] = "0x0800"
+prevent_flow["ip_proto"] = "0x06",
 prevent_flow["active"] = "true"
 prevent_flow["actions"] = ""
 
@@ -38,6 +40,7 @@ flow3 = {
     "ipv4_src":"192.168.1.100",
     "in_port":"1",
     "eth_type":"0x0800",
+    "ip_proto":"0x06",
     "active":"true",
     "actions":"output=flood"
     }
@@ -50,6 +53,7 @@ flow4 = {
     "in_port":"1",
     "ipv4_src":"192.168.1.1",
     "eth_type":"0x0800",
+    "ip_proto":"0x06",
     "active":"true",
     "actions":"output=flood"
     }
