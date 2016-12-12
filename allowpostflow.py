@@ -42,6 +42,7 @@ flow1 = {
     "ipv4_src":"192.168.1.105",
     "in_port":"1",
     "eth_type":"0x0800",
+    "ip_proto":"0x06",
     "active":"true",
     "actions":"output=flood"
     }
@@ -53,6 +54,7 @@ flow2 = {
     "ipv4_src":"192.168.1.102",
     "in_port":"1",
     "eth_type":"0x0800",
+    "ip_proto":"0x06",
     "active":"true",
     "actions":"output=flood"
     }
@@ -64,6 +66,7 @@ flow3 = {
     "ipv4_src":"192.168.1.100",
     "in_port":"1",
     "eth_type":"0x0800",
+    "ip_proto":"0x06",
     "active":"true",
     "actions":"output=flood"
     }
@@ -76,6 +79,7 @@ flow4 = {
     "in_port":"1",
     "ipv4_src":"192.168.1.101",
     "eth_type":"0x0800",
+    "ip_proto":"0x06",
     "active":"true",
     "actions":"output=flood"
     }
